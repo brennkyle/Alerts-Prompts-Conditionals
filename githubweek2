@@ -1,0 +1,10 @@
+// alerts & prompts, conditionals
+
+ var username = prompt("What is your username?");
+ var password = prompt("What is your password?");
+
+ if (username == 'yayayaya' && password == 'ya.ya.ya') {
+     alert("Welcome, " + username + "!");
+ } else {
+alert("Your username or password is incorrect.");
+ }
